@@ -18,5 +18,6 @@ class MainActivity : AppCompatActivity() {
         var gManager = GridLayoutManager(
                 this@MainActivity,2)
         rview.layoutManager = lManager   // (0r) gManager
+        rview.adapter = MyAdapter(this@MainActivity)
     }
 }

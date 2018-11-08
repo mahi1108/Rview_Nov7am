@@ -13,7 +13,7 @@ class MyHolder(v:View) : RecyclerView.ViewHolder(v)
     var name:TextView? = null
     var size:TextView? = null
     var del:Button? = null
-   init { 
+   init {
        iview = v.iview
        name = v.name
        size = v.size
